@@ -1,5 +1,6 @@
 variable "resource_group_name" {
   description = "Resouce group to which the storage account belongs to"
+  default = "storagerg"
 }
 
 variable "location" {
